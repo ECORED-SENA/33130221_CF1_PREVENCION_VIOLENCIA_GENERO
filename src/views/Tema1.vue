@@ -24,7 +24,7 @@
 
     .row.justify-content-center
       .col-lg-10
-        ImagenInfografica.color-acento-botones.mb-5
+        ImagenInfografica.color-acento-botones.mb-5(data-aos="zoom-in")
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/tema1/t1_01.svg', alt='Concepto de violencia contra las mujeres')
@@ -65,7 +65,7 @@
             h4 Violencia física: 
             p Se evidencia a través de toda señal de daño físico como golpes, quemaduras con fuego, ácido u otras sustancias, heridas o ataques con arma blanca o arma de fuego.        
           .col-md-6
-            figure
+            figure(data-aos="fade-left")
               img(src='@/assets/curso/tema1/t1_02.jpg', alt='')
 
       .py-4.py-md-5(titulo="Violencia psicológica" :icono="require('@/assets/curso/tema1/t1_07.svg')")
@@ -83,7 +83,7 @@
             h4 Violencia sexual:  
             p Se refiere al daño infringido a través de la palabra, el desprecio, la indiferencia, las humillaciones, el miedo y el engaño. En el marco de esta violencia se presentan todas las formas de control y aislamiento.       
           .col-md-6
-            figure
+            figure(data-aos="fade-left")
               img(src='@/assets/curso/tema1/t1_04.jpg', alt='')
 
       .py-4.py-md-5(titulo="Violencia económica" :icono="require('@/assets/curso/tema1/t1_09.svg')")
@@ -92,7 +92,7 @@
             h4 Violencia económica:  
             p Se refiere al daño infringido a través de la palabra, el desprecio, la indiferencia, las humillaciones, el miedo y el engaño. En el marco de esta violencia se presentan todas las formas de control y aislamiento.       
           .col-md-6
-            figure
+            figure(data-aos="fade-left")
               img(src='@/assets/curso/tema1/t1_05.jpg', alt='')
 
     .bgGrad--01
@@ -112,10 +112,10 @@
           p.mb-0 Frente a lo anterior, es claro que se trata de un tema en el que la asimetría relacional genera condiciones para ejercer violencia en la intimidad de una relación; sin embargo, los factores sociales que inciden en este tipo de violencia tienen un peso enorme, ya que se basan en los paradigmas de la dominación patriarcal, que fomenta las conductas denominadas “machistas” y hacen que la prevalencia de la violencia de pareja sea más alta.
 
         .col-lg-5
-          figure
+          figure(data-aos="fade-left")
               img(src='@/assets/curso/tema1/t1_10.svg', alt='')
 
-      .row.justify-content-center.mb-5
+      .row.justify-content-center.mb-5(data-aos="zoom-in")
         .col-lg-10
           .bloque-texto-g.btg--start.color-secundario.p-3.p-sm-4.p-md-5
             .bloque-texto-g__img(
@@ -139,7 +139,7 @@
       p.mb-5 En el siguiente recurso interactivo se muestran diferentes maneras sobre cómo se presenta el abuso sexual:
 
       .row.justify-content-center
-        .col-lg-6.mb-4
+        .col-lg-6.mb-4(data-aos="zoom-in")
           .crd.crd--purple.crd--round
             .row
               .col-auto
@@ -149,7 +149,7 @@
                   h3 El acoso sexual
                   p.mb-0 En donde la condición de “superioridad” por dinero, sexo, poder, edad es utilizada para perseguir, hostigar, amenazar de forma física o verbal a la mujer, con fines exclusivamente sexuales.   
 
-        .col-lg-6.mb-4
+        .col-lg-6.mb-4(data-aos="zoom-in")
           .crd.crd--pink.crd--round
             .row              
               .col
@@ -159,7 +159,7 @@
               .col-auto
                 .avatar_02
 
-        .col-lg-6.mb-4
+        .col-lg-6.mb-4(data-aos="zoom-in")
           .crd.crd--green.crd--round
             .row.hgt-100
               .col-auto
@@ -169,7 +169,7 @@
                   h3 Trata de personas con fines de explotación sexual
                   p.mb-0 En donde el victimario capta a la víctima, con el fin de llevarla a un lugar distinto para ser vendida o explotada sexualmente. 
 
-        .col-lg-6.mb-4
+        .col-lg-6.mb-4(data-aos="zoom-in")
           .crd.crd--blue.crd--round
             .row              
               .col
@@ -195,7 +195,7 @@
                   h3.cstm--h3 Aborto forzado
               p.mb-5.mb-lg-0 Es una manifestación de violencia en el que una mujer es obligada a tener un aborto en contra de su voluntad, confinamiento ilícito de una mujer a la que se ha dejado embarazada y se le obliga por la fuerza y contra su voluntad a abortar, pero también puede ser el caso contrario y es negar la posibilidad del aborto cuando la víctima ha tenido un abuso sexual.
             .col-lg-4
-              figure
+              figure(data-aos="fade-left")
                 img(src="@/assets/curso/tema1/t1_16.svg", alt="alt").img300.m-auto
 
           .linebreak  
@@ -210,7 +210,7 @@
                   h3.cstm--h3 Negación de la anticoncepción
               p.mb-5.mb-lg-0 Mujeres a las cuales se les niega su posibilidad de usar métodos anticonceptivos para tener relaciones sexuales, por razones ideológicas o religiosas.
             .col-lg-4
-              figure
+              figure(data-aos="fade-left")
                 img(src="@/assets/curso/tema1/t1_17.svg", alt="alt").img300.m-auto
 
           .linebreak  
@@ -225,7 +225,7 @@
                   h3.cstm--h3 Negación del derecho a la protección contra ETS o VIH
               p.mb-5.mb-lg-0 Mujeres que por influencia de su pareja tienen relaciones sexuales sin protección de enfermedades de transmisión sexual, ya sea por el uso de condón femenino o masculino.
             .col-lg-4
-              figure
+              figure(data-aos="fade-left")
                 img(src="@/assets/curso/tema1/t1_18.svg", alt="alt").img300.m-auto
 
           .linebreak  
@@ -240,7 +240,7 @@
                   h3.cstm--h3 Matrimonio forzado
               p.mb-5.mb-lg-0 Esta práctica es muy común en culturas en las que los matrimonios son arreglados y negociados, incluso desde el nacimiento de la mujer, también en este escenario el caso es de intercambio de la mujer por dinero o propiedades para ser entregada en matrimonio a un hombre por lo general mayor o  matrimonio entre menores de edad.
             .col-lg-4
-              figure
+              figure(data-aos="fade-left")
                 img(src="@/assets/curso/tema1/t1_19.svg", alt="alt").img300.m-auto
 
           .linebreak  
@@ -255,12 +255,12 @@
                   h3.cstm--h3 Feminicidio
               p.mb-5.mb-lg-0 Esta manifestación de violencia se refiere al asesinato de mujeres o niñas por el hecho de ser mujeres.
             .col-lg-4
-              figure
+              figure(data-aos="fade-left")
                 img(src="@/assets/curso/tema1/t1_20.svg", alt="alt").img300.m-auto
 
     .linebreak--100
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="zoom-in")
       .col-lg-10
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
@@ -361,7 +361,7 @@
 
     .row.justify-content-center.pb-5
       .col-auto.mb-4.mb-lg-0
-        .flip
+        .flip(data-aos="zoom-in")
           .flip-content.flip--coral
             .flip-front.py-4
               img(src="@/assets/curso/tema1/flip_01.svg", alt="alt").img270.m-auto
@@ -371,7 +371,7 @@
               p.mb-0 Esta manifestación de la violencia contra las mujeres combina la violencia de género con una mala práctica médica. La OMS establece que todas las mujeres tienen derecho a recibir el más alto nivel de cuidados en su salud, que incluye el derecho a una atención digna y respetuosa del embarazo, del parto, su puerperio, y el derecho a no sufrir violencia, ni discriminación.
 
       .col-auto.mb-4.mb-lg-0
-        .flip
+        .flip(data-aos="zoom-in")
           .flip-content.flip--rosa
             .flip-front.py-4
               img(src="@/assets/curso/tema1/flip_02.svg", alt="alt").img270.m-auto
@@ -389,10 +389,10 @@
       .col-lg-7.order-2.order-lg-1
         p La violencia contra las mujeres es una violencia basada en las desigualdades de género, las cuales se explican más adelante; sin embargo, estas violencias son principalmente vividas en los escenarios privados, cuyo referente por excelencia es la familia.
       .col-lg-5.order-1.order-lg-2.mb-5.mb-lg-0
-        figure
+        figure(data-aos="fade-left")
           img(src="@/assets/curso/tema1/t1_26.svg", alt="alt").img400.m-auto
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="zoom-in")
       .col-lg-10
         .bloque-texto-g.btg--start.color-primario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
@@ -414,7 +414,7 @@
 
       .row(titulo="Familiar (privado)").justify-content-center
         .col-auto.mb-4.mb-lg-0
-          figure
+          figure(data-aos="fade-right")
             img(src='@/assets/curso/tema1/t1_29.svg', alt='').img190.m-auto
 
         .col-sm
@@ -426,7 +426,7 @@
 
       .row(titulo="Conflicto armado (público)").justify-content-center
         .col-auto.mb-4.mb-lg-0
-          figure
+          figure(data-aos="fade-right")
             img(src='@/assets/curso/tema1/t1_30.svg', alt='').img190.m-auto
 
         .col-sm
@@ -436,7 +436,7 @@
 
       .row(titulo="Defensa de los derechos humanos (público)").justify-content-center
         .col-auto.mb-4.mb-lg-0
-          figure
+          figure(data-aos="fade-right")
             img(src='@/assets/curso/tema1/t1_31.svg', alt='').img190.m-auto
 
         .col-sm
@@ -460,11 +460,11 @@
           p A continuación, se hace un compendio de algunas normas que han logrado cambiar la vida de las mujeres y que representan avances significativos en materia de protección y prevención de la violencia de género. Cabe resaltar que existe una amplia normatividad internacional y nacional; sin embargo, se hace alusión solo a las que se consideran más representativas, sin descartar la importancia e impacto de otras normas vigentes.
 
         .col-lg-4.mb-5
-          figure
+          figure(data-aos="fade-left")
             img(src="@/assets/curso/tema1/t1_32.svg", alt="alt").img400.m-auto
 
     .row.justify-content-center.my-5
-      .col-lg-8
+      .col-lg-8(data-aos="zoom-in")
         ImagenInfografica.color-secundario.mb-5
           template(v-slot:imagen)
             figure
@@ -561,12 +561,12 @@
             p(numero="5" titulo="2008 - Ley 1257") Adopción de normas que permitan garantizar para todas las mujeres una vida libre de violencia, tanto en el ámbito público como en el privado, el ejercicio de los derechos reconocidos en el ordenamiento jurídico interno e internacional, el acceso a los procedimientos administrativos y judiciales para su protección y atención, y la adopción de las políticas públicas necesarias para su realización.          
 
         .col-lg-6 
-          figure
+          figure(data-aos="fade-left")
             img(src="@/assets/curso/tema1/t1_42.svg", alt="alt").img600.m-auto
       
       .row.justify-content-center
         .col-lg-6.mb-5.mb-lg-0
-          figure
+          figure(data-aos="fade-right")
             img(src="@/assets/curso/tema1/t1_43.svg", alt="alt").img600.m-auto
         .col-lg-6
           LineaTiempoD.color-primario
@@ -592,7 +592,7 @@
         p Respecto a las medidas de sensibilización y prevención todas las autoridades encargadas de formular e implementar políticas públicas deberán reconocer las diferencias y desigualdades sociales, biológicas en las relaciones entre las personas según el sexo, la edad, la etnia y el rol que desempeñan en la familia y en el grupo social, para esto el Gobierno Nacional indica las siguientes acciones: 
 
       .col-lg-6 
-        figure
+        figure(data-aos="fade-left")
           img(src="@/assets/curso/tema1/t1_44.svg", alt="alt").img600.m-auto
 
     .row.justify-content-center
@@ -653,7 +653,7 @@
                 p.mb-0 Las sanciones para los agresores.
 
           .col-lg-8
-            figure
+            figure(data-aos="fade-left")
               img(src="@/assets/curso/tema1/t1_45.svg", alt="alt").img600.m-auto
 
     separador
@@ -663,7 +663,7 @@
 
     p A través de este enfoque se busca reconocer y garantizar el reconocimiento, garantía y restablecimiento de los derechos de las mujeres para poder avanzar hacia el objetivo de la igualdad y de la eliminación de cualquier tipo de violencia contra las mujeres. Reconocer los derechos de las mujeres inicia desde las mismas mujeres y se extiende a la sociedad en general; no se trata de pensar en los derechos de las mujeres como derechos distintos a los derechos humanos; sin embargo, la desigualdad de género lleva a buscar herramientas de análisis más detalladas que permitan leer las realidades desde perspectivas distintas.
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="zoom-in")
       .col-lg-10
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(

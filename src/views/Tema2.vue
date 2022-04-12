@@ -9,7 +9,7 @@
       h1 Violencia de género
 
     .bgImg--02    
-      .row.justify-content-center.mb-5
+      .row.justify-content-center.mb-5(data-aos="zoom-in")
         .col-lg-10
           .bloque-texto-g.btg--start.color-primario.p-3.p-sm-4.p-md-5
             .bloque-texto-g__img(
@@ -30,14 +30,14 @@
         p Desde esta perspectiva la violencia de género se circunscribe en una lucha de poder basada en la diferencia de género, remontando su origen en lo que se ha denominado como el “patriarcado” o “sistema de dominación patriarcal”, el cual desde una perspectiva de estudios económicos y sociales surge con la primera división sexual del trabajo.
  
       .col-lg-6 
-        figure
+        figure(data-aos="fade-left")
           img(src="@/assets/curso/tema2/t2_02.svg", alt="alt").img600.m-auto
 
     .linebreak2.my-5
 
     .row.justify-content-center
       .col-lg-6.mb-5.mb-lg-0
-        figure
+        figure(data-aos="fade-right")
           img(src="@/assets/curso/tema2/t2_03.svg", alt="alt").img600.m-auto
       .col-lg-6
         p.mb-0 Las aldeas primitivas conformadas por hombres, mujeres e hijos recolectaban y se alimentaban de frutos, eran nómadas y tanto hombres como mujeres podían trabajar en las mismas actividades; sin embargo, con el desarrollo de nuevas tecnologías para la supervivencia y la elaboración de utensilios empezaron a explorar una nueva actividad, la caza. Esto significaba enfrentarse a animales salvajes y a utilizar la fuerza física, además de perseguir a los animales de forma discreta para ser cazados. Aquí varios factores empezaron a influir, como la necesidad de mayor fuerza física, necesidad de cuidado de los hijos y un factor biológico adicional que era el olor a sangre, que atraía a animales salvajes cuando las mujeres estaban menstruando.
@@ -51,12 +51,12 @@
         p Aquí se configura un espacio privado y doméstico para las mujeres y, un espacio público y abierto para los hombres. Esta ha sido quizás una de las condenas más profundas para las mujeres a lo largo de la historia, ya que los hombres históricamente se convirtieron en proveedores del hogar y las mujeres en madres cuidadoras.
  
       .col-lg-6 
-        figure
+        figure(data-aos="fade-left")
           img(src="@/assets/curso/tema2/t2_04.svg", alt="alt").img600.m-auto
 
     p.mb-5 A lo largo del tiempo esta diferenciación y espacio de desarrollo por género se ha convertido en el caldo de cultivo para la desigualdad, ya que las connotaciones de poder han estado puestas en factores también de tipo económico, en las que el dinero y la autoridad son sinónimos y por razones de roles históricos, las mujeres durante grandes periodos de tiempo en la historia no podían trabajar, estudiar o producir, más allá de lo que el hogar permitía.    
   
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema2/t2_05.svg')})`}"
       )
@@ -72,7 +72,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-6.mb-5.mb-lg-0
-        figure
+        figure(data-aos="fade-right")
           img(src="@/assets/curso/tema2/t2_06.svg", alt="alt").img600.m-auto
       .col-lg-6
         p La violencia de género debe ser comprendida como un constructo cultural, que se basa en la lucha de poder entre los géneros, lo que significa no necesariamente que es un tema de hombres contra las mujeres, ya que esta lucha que se torna violenta puede ser desde cualquier polo.
@@ -194,7 +194,7 @@
       .col-lg-8.mb-4.mb-lg-0
         p Frente a la violencia de género el grupo de mayor vulnerabilidad son las mujeres y las niñas; sin embargo, los grupos de personas con orientaciones sexuales diversas son también foco de discriminación y violencia por temas de género, ya que se salen del paradigma de la relación hombre - mujer, masculino – femenino, en donde el mundo desde los ojos de la desigualdad solo puede ser visto desde estas dos condiciones, todo lo que se aleje de esto, es rechazado, discriminado, violentado e incluso, eliminado.
       .col-lg-4
-        figure
+        figure(data-aos="fade-left")
           img(src="@/assets/curso/tema2/t2_12.svg", alt="alt").img400.m-auto
 
     separador
@@ -206,7 +206,7 @@
 
     .row.justify-content-center.pb-5.mb-5
       .col-auto.mb-4.mb-lg-0
-        .flip
+        .flip(data-aos="zoom-in")
           .flip-content.flip--coral
             .flip-front.py-4
               img(src="@/assets/curso/tema2/t2_13.svg", alt="alt").img300.m-auto
@@ -246,7 +246,7 @@
                   
 		
       .col-auto.mb-4.mb-lg-0
-        .flip
+        .flip(data-aos="zoom-in")
           .flip-content.flip--blue
             .flip-front.py-4
               img(src="@/assets/curso/tema2/t2_14.svg", alt="alt").img300.m-auto
@@ -305,7 +305,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-8
-        figure
+        figure(data-aos="zoom-in")
           img(src="@/assets/curso/tema2/t2_15.svg", alt="alt").m-auto
 
     p.mb-5 Estas frases tan cotidianas dan cuenta de la naturalización de la violencia de género, son un aspecto sociocultural arraigado. 
@@ -319,7 +319,7 @@
 
     p.mb-5 En el marco de la violencia de género y la violencia contra las mujeres, la forma como se construye el amor ha sido compleja, ya que se convierte en una forma de dominar y poner en condición de vulnerabilidad a las mujeres.
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="zoom-in")
       .col-lg-10
         .bloque-texto-g.btg--start.color-primario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
@@ -338,70 +338,70 @@
         .col-md-6.mb-4.mb-md-0
           p Creencia que hemos escogido la pareja que de alguna manera tenemos predestinada.      
         .col-md-6
-          figure
+          figure(data-aos="fade-left")
             img(src='@/assets/curso/tema2/t2_17.jpg', alt='').img600.m-auto
 
       .row(titulo="Exclusividad")
         .col-md-6.mb-4.mb-md-0
           p El amor tan solo se puede sentir por una persona en un momento determinado.      
         .col-md-6
-          figure
+          figure(data-aos="fade-left")
             img(src='@/assets/curso/tema2/t2_18.jpg', alt='').img600.m-auto
 
       .row(titulo="Matrimonio o convivencia")
         .col-md-6.mb-4.mb-md-0
           p El amor conduce al matrimonio y es la base de este.      
         .col-md-6
-          figure
+          figure(data-aos="fade-left")
             img(src='@/assets/curso/tema2/t2_19.jpg', alt='').img600.m-auto
 
       .row(titulo="Omnipotencia")
         .col-md-6.mb-4.mb-md-0
           p El amor lo puede todo, si hay verdadero amor los obstáculos no deben influir sobre la pareja.      
         .col-md-6
-          figure
+          figure(data-aos="fade-left")
             img(src='@/assets/curso/tema2/t2_20.jpg', alt='').img600.m-auto
 
       .row(titulo="Perdurabilidad o pasión eterna")
         .col-md-6.mb-4.mb-md-0
           p El amor pasional de los primeros meses de relación amorosa debe continuar siempre.    
         .col-md-6
-          figure
+          figure(data-aos="fade-left")
             img(src='@/assets/curso/tema2/t2_21.jpg', alt='').img600.m-auto
 
       .row(titulo="Fidelidad")
         .col-md-6.mb-4.mb-md-0
           p El amor verdadero siempre es fiel a su pareja.    
         .col-md-6
-          figure
+          figure(data-aos="fade-left")
             img(src='@/assets/curso/tema2/t2_22.jpg', alt='').img600.m-auto
 
       .row(titulo="Libre albedrío")
         .col-md-6.mb-4.mb-md-0
           p Los sentimientos del amor son libres y no están influenciados por valores sociales, biológicos o culturales, ajenos a nuestra voluntad.    
         .col-md-6
-          figure
+          figure(data-aos="fade-left")
             img(src='@/assets/curso/tema2/t2_23.jpg', alt='').img600.m-auto
 
       .row(titulo="Equivalencia de amor enamoramiento")
         .col-md-6.mb-4.mb-md-0
           p Si desaparece la pasión es que se ha acabado el amor.  
         .col-md-6
-          figure
+          figure(data-aos="fade-left")
             img(src='@/assets/curso/tema2/t2_24.jpg', alt='').img600.m-auto
 
       .row(titulo="Emparejamiento")
         .col-md-6.mb-4.mb-md-0
           p La pareja es natural y universal en todas las épocas y culturas.  
         .col-md-6
-          figure
+          figure(data-aos="fade-left")
             img(src='@/assets/curso/tema2/t2_25.jpg', alt='').img600.m-auto
 
       .row(titulo="Celos")
         .col-md-6.mb-4.mb-md-0
           p Es el indicador del amor verdadero.  
         .col-md-6
-          figure
+          figure(data-aos="fade-left")
             img(src='@/assets/curso/tema2/t2_26.jpg', alt='').img600.m-auto
 
     p.mb-5 Y para complementar la temática se relaciona el siguiente video:
@@ -468,7 +468,7 @@
 
     p.mb-5 Diferentes investigadores han hablado de este concepto, que se refiere a la violencia que se ha instaurado y naturalizado en la sociedad como una forma de relación, lo que es claro es que esta violencia atraviesa de forma inconsciente todos los procesos de socialización: familia, escuela, sociedad y se transmite la desigualdad desde el momento mismo del nacimiento de un niño y una niña.
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="zoom-in")
       .col-lg-10
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
@@ -552,7 +552,7 @@
               p.mb-0 No pertenece a ninguna clase social, económica o cultural, ni religión, ni grupo étnico determinado.
 
         .col-lg-5
-          figure
+          figure(data-aos="fade-left")
             img(src="@/assets/curso/tema2/t2_28.png", alt="alt").img500.m-auto
 
     .row.justify-content-center.mb-5
@@ -571,7 +571,7 @@
 
     p.mb-5 En el siguiente recurso de aprendizaje se presenta cada fase con su descripción: 
 
-    ImagenInfografica.color-secundario.mb-5
+    ImagenInfografica.color-secundario.mb-5(data-aos="zoom-in")
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/tema2/t2_29.svg', alt='Normativa internacional')         

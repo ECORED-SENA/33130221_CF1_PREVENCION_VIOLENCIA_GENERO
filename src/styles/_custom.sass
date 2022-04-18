@@ -163,7 +163,10 @@
 .flip-back 
   transform: rotateY(180deg) 
   border-radius: 25px
-  background-color: white 
+  h4, p
+    color: white !important
+
+ 
 
 ////// Utilidades de fondos
 
@@ -313,6 +316,25 @@
 .bloque-texto-g__img
   background-color: #D2E0E0
 
+.cstm--color
+  background-color: #5C1171
+  &::before
+    background-color: #FED8E7
+
+.bloque-texto-g
+  .bloque-texto-g__img.custom01
+    background-position: center center
+    background-size: contain
+    background-repeat: no-repeat
+    background-color: #FCF8FF
+
+.bloque-texto-g__texto
+  background-color: rgba(255, 255, 255, 1)
+
+.imgbl
+  background-position: left bottom
+
+
 /////// Custom slyder
 .slyder-a__btn--sigt, .slyder-a__btn--atrs
   background-color: #4B5CC9
@@ -354,3 +376,27 @@
 
 .tabla-a.table--custom tbody > tr   
   background-color: #F6F6F6
+
+
+///////////// CUSTOM LINEA DE TIEMPO D
+.linea-tiempo-d__item.row.linea-tiempo-d__item--selected
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: #BFB4D5 !important      
+      span
+        color: black !important
+        font-weight: 800
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background-color: #BFB4D5
+
+/// non selected
+.linea-tiempo-d__item.row
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: #F6F6F6
+    .linea-tiempo-d__item__dots:after
+      border-left: 4px dotted #adb8c2 !important
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background-color: #F6F6F6

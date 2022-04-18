@@ -10,8 +10,18 @@
 
     .bgImg--01
       p.mb-5 La violencia contra las mujeres y la violencia de género han sido temas en las agendas públicas mundiales durante las últimas décadas, debido a la necesidad imperante de trabajar en pro de la eliminación de todas las formas de violencia contra las mujeres y las niñas. En este sentido se han desarrollado normativas, debates y consensos para procurar el alcance de este objetivo.
-      .row.justify-content-center
+     
+      .row.justify-content-center.mb-5(data-aos="zoom-in")
         .col-lg-10
+          .bloque-texto-a.cstm--color.p-4.p-md-5.mb-5 
+            .row.m-0.align-items-center.justify-content-between
+              .col-lg-8
+                .bloque-texto-a__texto.p-4
+                  p En Colombia se han ratificado acuerdos internacionales y se ha desarrollado un marco normativo, así como la estructuración de una política pública compilada en el Conpes 161 de 2013.
+              .col-lg-4.mb-4.mb-lg-0
+                figure
+                  img(src="@/assets/curso/tema1/t1_00.png", alt="alt").img300.m-auto
+              
 
       p Sin embargo, las acciones no tienen que ver solamente con los lineamientos normativos, ya que las causas son multifactoriales y se remontan a condiciones históricas, culturales y sociales que requieren de transformaciones reales en el pensamiento, formas de hacer y sentir frente a las mujeres y niñas en Colombia.
 
@@ -30,20 +40,21 @@
               img(src='@/assets/curso/tema1/t1_01.svg', alt='Concepto de violencia contra las mujeres')
 
           .crd.crd--info.p-3(x="6.5%" y="88%" numero="+")
-            .h5.mb-2 La violencia contra las mujeres 
-            p.mb-0 Es importante comprender que cuando se habla de violencia de género, esta incluye la violencia contra las mujeres, pero no se agota allí, debido a que la categoría en la perspectiva de género permite realizar un análisis frente a los diversos tipos de violencia que se pueden presentar por razones de género, hacia mujeres, hombres y poblaciones con orientaciones sexuales diversas.
+            .h5.mb-2 Convención de Belém do Pará
+            p.mb-0 La Convención Interamericana para Prevenir, Sancionar y Erradicar la Violencia contra la Mujer, conocida como Convención de Belém do Pará (sitio de su adopción en 1994), define la violencia contra las mujeres, establece el derecho de las mujeres a vivir una vida libre de violencia y destaca a la violencia como una violación de los derechos humanos y de las libertades fundamentales.            
           
           .crd.crd--info.p-3(x="18.5%" y="36%" numero="+")
             .h5.mb-2 Clasificación
             p.mb-0 De esta forma la violencia contra las mujeres es una clasificación que permite diferenciar acciones específicas en contra de las mujeres, para su manejo y prevención, debido a las altas cifras y consecuencias sociales que este tipo de violencia genera.
             
           .crd.crd--info.p-3(x="49.2%" y="18%" numero="+")
-            .h5.mb-2 Ley 1257 de 2013
-            p.mb-0 La violencia contra las mujeres y las niñas se reconoce en Colombia a partir de la Ley 1257 de 2013 y se define como todo acto de violencia, basado en el género, que tenga o pueda tener como resultado un daño o sufrimiento físico, sexual o mental para la mujer, así como las amenazas de tales actos, la coacción o la privación arbitraria de la libertad, tanto si se producen en la vida pública como en la vida privada.          
+            .h5.mb-2 La violencia contra las mujeres 
+            p.mb-0 Es importante comprender que cuando se habla de violencia de género, esta incluye la violencia contra las mujeres, pero no se agota allí, debido a que la categoría en la perspectiva de género permite realizar un análisis frente a los diversos tipos de violencia que se pueden presentar por razones de género, hacia mujeres, hombres y poblaciones con orientaciones sexuales diversas.
+                     
             
           .crd.crd--info.p-3(x="80%" y="36%" numero="+")
-            .h5.mb-2 Convención de Belém do Pará
-            p.mb-0 La Convención Interamericana para Prevenir, Sancionar y Erradicar la Violencia contra la Mujer, conocida como Convención de Belém do Pará (sitio de su adopción en 1994), define la violencia contra las mujeres, establece el derecho de las mujeres a vivir una vida libre de violencia y destaca a la violencia como una violación de los derechos humanos y de las libertades fundamentales.
+            .h5.mb-2 Ley 1257 de 2013
+            p.mb-0 La violencia contra las mujeres y las niñas se reconoce en Colombia a partir de la Ley 1257 de 2013 y se define como todo acto de violencia, basado en el género, que tenga o pueda tener como resultado un daño o sufrimiento físico, sexual o mental para la mujer, así como las amenazas de tales actos, la coacción o la privación arbitraria de la libertad, tanto si se producen en la vida pública como en la vida privada.             
 
           .crd.crd--info.p-3(x="91.5%" y="88%" numero="+")
             .h5.mb-2 Manifestaciones en privado o en público
@@ -60,7 +71,7 @@
 
     TabsB.color-acento-contenido.mb-5
       .py-4.py-md-5(titulo="Violencia física" :icono="require('@/assets/curso/tema1/t1_06.svg')")
-        .row
+        .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0
             h4 Violencia física: 
             p Se evidencia a través de toda señal de daño físico como golpes, quemaduras con fuego, ácido u otras sustancias, heridas o ataques con arma blanca o arma de fuego.        
@@ -69,7 +80,7 @@
               img(src='@/assets/curso/tema1/t1_02.jpg', alt='')
 
       .py-4.py-md-5(titulo="Violencia psicológica" :icono="require('@/assets/curso/tema1/t1_07.svg')")
-        .row
+        .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0
             h4 Violencia psicológica: 
             p Se refiere al daño infringido a través de la palabra, el desprecio, la indiferencia, las humillaciones, el miedo y el engaño. En el marco de esta violencia se presentan todas las formas de control y aislamiento.       
@@ -78,7 +89,7 @@
               img(src='@/assets/curso/tema1/t1_03.jpg', alt='')
 
       .py-4.py-md-5(titulo="Violencia sexual" :icono="require('@/assets/curso/tema1/t1_08.svg')")
-        .row
+        .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0
             h4 Violencia sexual:  
             p Se refiere al daño infringido a través de la palabra, el desprecio, la indiferencia, las humillaciones, el miedo y el engaño. En el marco de esta violencia se presentan todas las formas de control y aislamiento.       
@@ -87,7 +98,7 @@
               img(src='@/assets/curso/tema1/t1_04.jpg', alt='')
 
       .py-4.py-md-5(titulo="Violencia económica" :icono="require('@/assets/curso/tema1/t1_09.svg')")
-        .row
+        .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0
             h4 Violencia económica:  
             p Se refiere al daño infringido a través de la palabra, el desprecio, la indiferencia, las humillaciones, el miedo y el engaño. En el marco de esta violencia se presentan todas las formas de control y aislamiento.       
@@ -117,7 +128,7 @@
 
       .row.justify-content-center.mb-5(data-aos="zoom-in")
         .col-lg-10
-          .bloque-texto-g.btg--start.color-secundario.p-3.p-sm-4.p-md-5
+          .bloque-texto-g.btg--start.color-primario.p-3.p-sm-4.p-md-5
             .bloque-texto-g__img(
               :style="{'background-image': `url(${require('@/assets/curso/tema1/t1_11.svg')})`}"
             )
@@ -174,7 +185,7 @@
             .row              
               .col
                 .crd--body.p-4
-                  h3 violencia sexual en el contexto del conflicto armado
+                  h3 Violencia sexual en el contexto del conflicto armado
                   p.mb-0 Puede manifestarse de las siguientes formas: acceso carnal violento en persona protegida, en la que el agresor quien pertenece al conflicto armado comete acceso carnal violento cuando la víctima es integrante de la población civil o no participa en el conflicto, está herida, enferma o puesta fuera del combate. Actos sexuales violentos con persona protegida, en la misma población descrita anteriormente el agresor realiza actos sexuales diferentes al acceso carnal.
               .col-auto
                 .avatar_04
@@ -186,7 +197,7 @@
         .col-lg-10
 
           .row.justify-content-center
-            .col-lg-7             
+            .col-lg        
               .row.justify-content-center
                 .col-auto
                   figure
@@ -201,7 +212,7 @@
           .linebreak  
 
           .row.justify-content-center
-            .col-lg-7             
+            .col-lg        
               .row.justify-content-center
                 .col-auto
                   figure
@@ -216,7 +227,7 @@
           .linebreak  
 
           .row.justify-content-center
-            .col-lg-7             
+            .col-lg          
               .row.justify-content-center
                 .col-auto
                   figure
@@ -231,7 +242,7 @@
           .linebreak  
 
           .row.justify-content-center
-            .col-lg-7             
+            .col-lg           
               .row.justify-content-center
                 .col-auto
                   figure
@@ -246,7 +257,7 @@
           .linebreak  
 
           .row.justify-content-center.mb-4
-            .col-lg-7             
+            .col-lg           
               .row.justify-content-center
                 .col-auto
                   figure
@@ -366,7 +377,7 @@
             .flip-front.py-4
               img(src="@/assets/curso/tema1/flip_01.svg", alt="alt").img270.m-auto
               h3.mb-0.text-center.text-white Violencia obstétrica
-            .flip-back.p-4.pt-5              
+            .flip-back.flip--coral.p-4.pt-5              
               h4.text-center.txt-mint.pt-3 Violencia obstétrica
               p.mb-0 Esta manifestación de la violencia contra las mujeres combina la violencia de género con una mala práctica médica. La OMS establece que todas las mujeres tienen derecho a recibir el más alto nivel de cuidados en su salud, que incluye el derecho a una atención digna y respetuosa del embarazo, del parto, su puerperio, y el derecho a no sufrir violencia, ni discriminación.
 
@@ -376,7 +387,7 @@
             .flip-front.py-4
               img(src="@/assets/curso/tema1/flip_02.svg", alt="alt").img270.m-auto
               h3.mb-0.text-center.text-white Violencia menstrual
-            .flip-back.p-4.pt-5              
+            .flip-back.flip--rosa.p-4.pt-5              
               h4.text-center.txt-mint.pt-3 Violencia menstrual
               p.mb-0 Por las condiciones de pobreza y vulnerabilidad de muchas mujeres generan barreras para lograr adquirir los recursos y suministros para el cuidado de la higiene menstrual. La dificultad para obtener artículos para el manejo menstrual puede hacer que las niñas y adolescentes dejen de asistir al colegio o que les impida a las mujeres salir a trabajar, lo que representa una forma de violencia y una vulneración de derechos para las mujeres y niñas.
 
@@ -392,19 +403,18 @@
         figure(data-aos="fade-left")
           img(src="@/assets/curso/tema1/t1_26.svg", alt="alt").img400.m-auto
 
-    .row.justify-content-center.mb-5(data-aos="zoom-in")
-      .col-lg-10
-        .bloque-texto-g.btg--start.color-primario.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/tema1/t1_27.svg')})`}"
-          )
-          .bloque-texto-g__texto.p-5
-            p Estas violencias tienen una característica fundamental y es que son cíclicas y sistemáticas, es decir, que se viven una serie de comportamientos maltratantes que recorren casi todas las formas de violencia y esto se repite en el tiempo. Cabe resaltar que al ser esta violencia de carácter social no está vinculada a la falta de educación o pobreza, ya que se presenta sin distinciones de edad, etnia, ideología o clase social.
+   
+    .bloque-texto-g.btg--start.color-primario.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema1/t1_27.svg')})`}"
+      )
+      .bloque-texto-g__texto.p-5
+        p Estas violencias tienen una característica fundamental y es que son cíclicas y sistemáticas, es decir, que se viven una serie de comportamientos maltratantes que recorren casi todas las formas de violencia y esto se repite en el tiempo. Cabe resaltar que al ser esta violencia de carácter social no está vinculada a la falta de educación o pobreza, ya que se presenta sin distinciones de edad, etnia, ideología o clase social.
 
     p.mb-5 De acuerdo con el informe defensorial sobre violencias basadas en género y discriminación, este tipo de violencia se desarrolla en cuatro ámbitos fundamentalmente:
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--rosa")
-      .row(titulo="Sociocultural (público - privado)").justify-content-center
+      .row(titulo="Sociocultural (público - privado)").justify-content-center.ms-5
         .col-auto.mb-4.mb-lg-0
           figure
             img(src='@/assets/curso/tema1/t1_28.svg', alt='').img190.m-auto
@@ -412,7 +422,7 @@
         .col-sm
           p De igual forma, las personas con orientaciones de género diversas se ven enfrentadas a una serie de barreras de acceso, desprotección laboral y educativa. De este ámbito hacen parte la escuela, las organizaciones del trabajo, las instituciones del Estado y de salud, todas ellas como parte de momentos y situaciones en donde las mujeres son víctimas de diversas formas de discriminación y violencia, basadas en desigualdades de género, ya que constituyen espacio de convivencia, socialización, integración y crecimiento personal y laboral.
 
-      .row(titulo="Familiar (privado)").justify-content-center
+      .row(titulo="Familiar (privado)").justify-content-center.ms-5
         .col-auto.mb-4.mb-lg-0
           figure(data-aos="fade-right")
             img(src='@/assets/curso/tema1/t1_29.svg', alt='').img190.m-auto
@@ -424,7 +434,7 @@
 
           p En Colombia la violencia intrafamiliar se ha convertido en uno de los escenarios de mayor prevalencia. Dentro de las condiciones que se convierten en factor de riesgo se encuentra la dependencia económica, las condiciones sociales, la baja autoestima y la naturalización de roles tradicionales.
 
-      .row(titulo="Conflicto armado (público)").justify-content-center
+      .row(titulo="Conflicto armado (público)").justify-content-center.ms-5
         .col-auto.mb-4.mb-lg-0
           figure(data-aos="fade-right")
             img(src='@/assets/curso/tema1/t1_30.svg', alt='').img190.m-auto
@@ -434,7 +444,7 @@
 
           p La Corte Constitucional constató en el auto 092 de 2008 que “la violencia sexual es una práctica habitual, extendida, sistemática e invisible en el contexto del conflicto armado colombiano, así́ como lo son la explotación y el abuso sexual”. Estas condiciones de violencia contra las mujeres desencadenan situaciones como el desplazamiento forzado, cargas psicológicas y emocionales de alto impacto. 
 
-      .row(titulo="Defensa de los derechos humanos (público)").justify-content-center
+      .row(titulo="Defensa de los derechos humanos (público)").justify-content-center.ms-5
         .col-auto.mb-4.mb-lg-0
           figure(data-aos="fade-right")
             img(src='@/assets/curso/tema1/t1_31.svg', alt='').img190.m-auto
@@ -450,7 +460,7 @@
 
     .bgImg--01
       #t_1_4.titulo-segundo.color-acento-contenido
-        h2 1.4 Concepto de violencia contra las mujeres 
+        h2 1.4 Normativa nacional e internacional
       .row.justify-content-center
         .col-lg-8
           p Para realizar un acercamiento a la normatividad internacional y nacional que afecta las condiciones de las mujeres en la sociedad frente a la violencia de género se ha realizado una compilación que se presenta a continuación.
@@ -661,16 +671,15 @@
     #t_1_6.titulo-segundo.color-acento-contenido
       h2 1.6 Perspectiva de derechos
 
-    p A través de este enfoque se busca reconocer y garantizar el reconocimiento, garantía y restablecimiento de los derechos de las mujeres para poder avanzar hacia el objetivo de la igualdad y de la eliminación de cualquier tipo de violencia contra las mujeres. Reconocer los derechos de las mujeres inicia desde las mismas mujeres y se extiende a la sociedad en general; no se trata de pensar en los derechos de las mujeres como derechos distintos a los derechos humanos; sin embargo, la desigualdad de género lleva a buscar herramientas de análisis más detalladas que permitan leer las realidades desde perspectivas distintas.
+    p.mb-5 A través de este enfoque se busca reconocer y garantizar el reconocimiento, garantía y restablecimiento de los derechos de las mujeres para poder avanzar hacia el objetivo de la igualdad y de la eliminación de cualquier tipo de violencia contra las mujeres. Reconocer los derechos de las mujeres inicia desde las mismas mujeres y se extiende a la sociedad en general; no se trata de pensar en los derechos de las mujeres como derechos distintos a los derechos humanos; sin embargo, la desigualdad de género lleva a buscar herramientas de análisis más detalladas que permitan leer las realidades desde perspectivas distintas.
 
-    .row.justify-content-center.mb-5(data-aos="zoom-in")
-      .col-lg-10
-        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/tema1/t1_46.svg')})`}"
-          )
-          .bloque-texto-g__texto.p-5
-            p En este sentido es importante hablar también de la perspectiva o enfoque de género, que busca reconocer, visibilizar y transformar las desigualdades que impiden el ejercicio de los derechos de las mujeres por diversas razones: raza, etnia, cultura, condiciones socioeconómicas, ideología, religión, género, orientación sexual. Este enfoque se constituye en una herramienta de análisis estratégico que apunta a la búsqueda del objetivo de igualdad y no discriminación.
+    
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema1/t1_46.svg')})`}"
+      )
+      .bloque-texto-g__texto.p-5
+        p En este sentido es importante hablar también de la perspectiva o enfoque de género, que busca reconocer, visibilizar y transformar las desigualdades que impiden el ejercicio de los derechos de las mujeres por diversas razones: raza, etnia, cultura, condiciones socioeconómicas, ideología, religión, género, orientación sexual. Este enfoque se constituye en una herramienta de análisis estratégico que apunta a la búsqueda del objetivo de igualdad y no discriminación.
 
     
 

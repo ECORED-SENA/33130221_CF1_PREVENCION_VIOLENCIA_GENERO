@@ -110,7 +110,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.7',
-            titulo: '2.7	Ciclo de la violencia',
+            titulo: 'Ciclo de la violencia',
             hash: 't_2_7',
           },
         ],

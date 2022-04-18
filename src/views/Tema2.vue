@@ -54,10 +54,10 @@
         figure(data-aos="fade-left")
           img(src="@/assets/curso/tema2/t2_04.svg", alt="alt").img600.m-auto
 
-    p.mb-5 A lo largo del tiempo esta diferenciación y espacio de desarrollo por género se ha convertido en el caldo de cultivo para la desigualdad, ya que las connotaciones de poder han estado puestas en factores también de tipo económico, en las que el dinero y la autoridad son sinónimos y por razones de roles históricos, las mujeres durante grandes periodos de tiempo en la historia no podían trabajar, estudiar o producir, más allá de lo que el hogar permitía.    
+    p.mb-5 A lo largo del tiempo esta diferenciación y espacio de desarrollo por género se ha convertido en el caldo de cultivo para la desigualdad, ya que las connotaciones de poder han estado puestas en factores también de tipo económico, en las que el dinero y la autoridad son sinónimos y por razones de roles históricos, las mujeres durante grandes periodos de tiempo en la historia no podían trabajar, estudiar o producir, más allá de lo que el hogar permitía.        
   
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in")
-      .bloque-texto-g__img(
+      .bloque-texto-g__img.custom01(
         :style="{'background-image': `url(${require('@/assets/curso/tema2/t2_05.svg')})`}"
       )
       .bloque-texto-g__texto.p-5
@@ -212,7 +212,7 @@
               img(src="@/assets/curso/tema2/t2_13.svg", alt="alt").img300.m-auto
               h3.mb-0.text-center.text-white Paradigma patriarcal
             .flip-back.p-4.pt-5              
-              h4.text-center.txt-mint.pt-3 Paradigma patriarcal
+              h4.txt-mint.pt-3.mb-4 Paradigma patriarcal
               .row
                 .col-auto
                   figure
@@ -252,7 +252,7 @@
               img(src="@/assets/curso/tema2/t2_14.svg", alt="alt").img300.m-auto
               h3.mb-0.text-center.text-white Paradigma capitalista
             .flip-back.p-4.pt-5             
-              h4.text-center.txt-mint Paradigma capitalista                          
+              h4.txt-mint.mb-4 Paradigma capitalista                          
               .row
                 .col-auto
                   figure
@@ -427,15 +427,15 @@
       table.cstm-table--01        
         thead
           tr
-            th(style="font-size:1em;").text-white Sepiensa que...
+            th(style="font-size:1em;").text-white Se piensa que...
             th(style="font-size:1em;").text-white La realidad es...
         tbody
           tr
-            td Cuando una mujer dice no, quiere decir que s&iacute;.
-            td Cuando una mujer dice no, es no, no es quiz&aacute;s, ni depronto, mucho menos s&iacute;.
+            td Cuando una mujer dice #[strong no], quiere decir que #[strong s&iacute;].
+            td Cuando una mujer dice #[strong no], es #[strong no], no es quiz&aacute;s, ni depronto, mucho menos s&iacute;.
           tr
             td La naturaleza masculina es violenta y puede perderel control.
-            td La testosterona no hace a un hombre maltratador, las ideas machistas s&iacute;.
+            td La testosterona no hace a un hombre maltratador, las ideas machistas #[strong s&iacute;].
           tr
             td La violencia de g&eacute;nero es una cosa rara, eso no pasa.
             td La violencia de g&eacute;nero, en especial la violencia contra las mujeres es la violaci&oacute;n de derechos humanos m&aacute;s grande en el planeta.
@@ -468,21 +468,20 @@
 
     p.mb-5 Diferentes investigadores han hablado de este concepto, que se refiere a la violencia que se ha instaurado y naturalizado en la sociedad como una forma de relación, lo que es claro es que esta violencia atraviesa de forma inconsciente todos los procesos de socialización: familia, escuela, sociedad y se transmite la desigualdad desde el momento mismo del nacimiento de un niño y una niña.
 
-    .row.justify-content-center.mb-5(data-aos="zoom-in")
-      .col-lg-10
-        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/tema2/t2_27.svg')})`}"
-          )
-          .bloque-texto-g__texto.p-5
-            p Este concepto lo que busca es visibilizar esas formas invisibles de violencia para analizarlas a la luz de las relaciones, aportando nuevos elementos para el diálogo, otras formas de relación y de educación, modelos de atención y políticas públicas a nivel mundial.
+    
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+      .bloque-texto-g__img.imgbl(
+        :style="{'background-image': `url(${require('@/assets/curso/tema2/t2_27.svg')})`}"
+      )
+      .bloque-texto-g__texto.p-5
+        p Este concepto lo que busca es visibilizar esas formas invisibles de violencia para analizarlas a la luz de las relaciones, aportando nuevos elementos para el diálogo, otras formas de relación y de educación, modelos de atención y políticas públicas a nivel mundial.
 
     separador
 
     .bgImg--03
 
       #t_2_6.titulo-segundo.color-acento-contenido
-        h2 2.6 Concepto de continuum
+        h2 2.6 Perfil del maltratador y de la víctima
 
       p.mb-5 Los maltratadores no son personas que se puedan definir de forma clara, existen estereotipos que se convierten en falsos imaginarios y desvirtúan la lógica cultural de la problemática; sin embargo, se han identificado algunas características comunes, de acuerdo con Poggi (2019) son las siguientes:
 
@@ -565,7 +564,7 @@
     separador
 
     #t_2_7.titulo-segundo.color-acento-contenido
-      h2 2.7 Concepto de continuum
+      h2 2.7 Ciclo de la violencia 
 
     p A continuación, se presentan las fases que componen el ciclo de la violencia, en las que cada fase tiene duraciones distintas y el ciclo vuelve a repetirse de forma sistemática, la relación se va tornando dependiente y si había alguna decisión de salir de la relación o denunciar, por lo general, el maltratador logra manipular a la persona para que no lo haga, retire los cargos o no denuncie. Después de un tiempo de arrepentimiento y perdón la tensión vuelve a presentarse y el ciclo inicia nuevamente.
 

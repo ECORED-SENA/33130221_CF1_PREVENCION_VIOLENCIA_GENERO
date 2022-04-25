@@ -92,7 +92,7 @@
         .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0
             h4 Violencia sexual:  
-            p Se refiere al daño infringido a través de la palabra, el desprecio, la indiferencia, las humillaciones, el miedo y el engaño. En el marco de esta violencia se presentan todas las formas de control y aislamiento.       
+            p Se refiere a todo acto o acercamiento sexual no consensuado, que hace daño y vulnera los derechos sexuales de las mujeres. Hacen parte de esta forma de violencia los tocamientos, acoso, relaciones sexuales forzadas.        
           .col-md-6
             figure(data-aos="fade-left")
               img(src='@/assets/curso/tema1/t1_04.jpg', alt='')
@@ -101,7 +101,7 @@
         .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0
             h4 Violencia económica:  
-            p Se refiere al daño infringido a través de la palabra, el desprecio, la indiferencia, las humillaciones, el miedo y el engaño. En el marco de esta violencia se presentan todas las formas de control y aislamiento.       
+            p Es una de las formas de violencia más naturalizadas y difíciles de evidenciar; hace referencia a los controles, obstáculos y limitaciones que se imponen a las mujeres para hacer uso y manejo del dinero, la toma de decisiones sobre el uso y manejo de propiedades, destrucción de los equipos o instrumentos para trabajar, falsificación y manipulación de documentos para hacer aprovechamiento de los recursos económicos.       
           .col-md-6
             figure(data-aos="fade-left")
               img(src='@/assets/curso/tema1/t1_05.jpg', alt='')
@@ -420,6 +420,7 @@
             img(src='@/assets/curso/tema1/t1_28.svg', alt='').img190.m-auto
 
         .col-sm
+          p En este ámbito se perpetúan de forma inconsciente las manifestaciones y estructuras de poder en las cuales se basa la violencia de género. Es justamente en los procesos de socialización de la familia, la escuela, el trabajo y la sociedad en donde se viven las cotidianidades de la violencia de género y la discriminación. Basta con poner atención a los chistes, los dichos populares, los comentarios que naturalizan roles, expresiones de ofensa como “pareces una niña” como si eso fuera un tema de vergüenza, es solo un ejemplo de cómo se vive y se transmite, de igual manera, aquí es donde aún se siguen perpetuando los roles tradicionales en los que la mujer ocupa escenarios más significativos en lo doméstico y en la crianza de los hijos.
           p De igual forma, las personas con orientaciones de género diversas se ven enfrentadas a una serie de barreras de acceso, desprotección laboral y educativa. De este ámbito hacen parte la escuela, las organizaciones del trabajo, las instituciones del Estado y de salud, todas ellas como parte de momentos y situaciones en donde las mujeres son víctimas de diversas formas de discriminación y violencia, basadas en desigualdades de género, ya que constituyen espacio de convivencia, socialización, integración y crecimiento personal y laboral.
 
       .row(titulo="Familiar (privado)").justify-content-center.ms-5

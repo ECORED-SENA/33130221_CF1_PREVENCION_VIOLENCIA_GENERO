@@ -98,7 +98,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.5',
-            titulo: 'Concepto de continuum',
+            titulo: 'Concepto de <i>continuum</i>',
             hash: 't_2_5',
           },
           {
@@ -119,7 +119,7 @@ export default {
     subMenu: [
       {
         icono: 'fas fa-sitemap',
-        titulo: 'Sintesis',
+        titulo: 'Síntesis',
         nombreRuta: 'sintesis',
       },
       {
@@ -230,30 +230,50 @@ export default {
     {
       texto:
         'OMS. (s.f.). Violencia contra la mujer - Respuesta del sector de la salud. Observatorio de igualdad de género de América Latina y El Caribe.',
-      tipo: 'Documento',
-      link: 'https://www.google.com/',
+      tipo: 'PDF',
+      descarga: '/downloads/who_nmh_vip_pvl_13_1_spa.pdf',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+        'ONU Mujeres. (s.f). Preguntas frecuentes: Tipos de violencia contra las mujeres y las niñas. unwomen.org.',
+      tipo: 'Artículo',
+      link:
+        'https://www.unwomen.org/es/what-we-do/ending-violence-against-women/faqs/types-of-violence',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
+        'Espinar, E. (2007). Las raíces socioculturales de la violencia de género. Universidad de Alicante.',
+      tipo: 'PDF',
+      descarga: '/downloads/02espinar.pdf',
     },
     {
-      texto: 'Economía de Rosquilla. (s.f.).',
+      texto:
+        'Conpes Social 161. (2013). Equidad de género para las mujeres. Consejo Nacional de Política Económica y Social.',
+      tipo: 'PDF',
+      descarga: '/downloads/colombia_2013-2016.pdf',
+    },
+    {
+      texto:
+        'Sistema Único de Información Normativa. (s.f). Protección y defensa de los derechos de las mujeres',
       tipo: 'Página web',
-      descarga: ['/downloads/prueba.pdf', '/downloads/prueba.pdf'],
+      link: 'http://www.suin-juriscol.gov.co/legislacion/diadelamujer.html',
     },
     {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
+      texto:
+        'Alonso, C., Cacho, R., González, I., Herrera, E. y Ramírez, J. (s.f.). Guía de buen trato y prevención de la violencia de género en el ámbito educativo. Junta de Andalucía- España.',
+      tipo: 'PDF',
+      descarga: '/downloads/Guía_buenostratos.pdf',
+    },
+    {
+      texto: 'Infogénero. (2019). Video pedagógico de la Ley 1257',
       tipo: 'Video',
-      link: ['https://www.google.com/', 'https://www.google.com/'],
+      link: 'https://www.youtube.com/watch?v=JEfFoiGsBEc',
+    },
+    {
+      texto: 'OMS. (2021). Violencia contra la mujer. OMS. ',
+      tipo: 'Página web',
+      link:
+        'https://www.who.int/es/news-room/fact-sheets/detail/violence-against-women',
     },
   ],
   creditos: {
@@ -269,7 +289,30 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Sonia Margarita Leal Cruz',
+        cargo: 'Experta técnica',
+        centro:
+          'Centro de Formación de Talento Humano en Salud - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Giovanna Andrea Escobar Ospina',
+        cargo: 'Diseñadora instruccional',
+        centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Revisora metodológica y pedagógica',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Julia Isabel Roberto',
+        cargo: 'Diseñadora y evaluadora instruccional',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -277,36 +320,42 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'Edison Eduardo Mantilla Cuadros',
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Magdi Khalifah',
         cargo: 'Desarrollo Front-End',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: '---',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Validación de diseño y contenido',
+        nombre: 'Lina Marcela Perez',
+        cargo: 'Validación de diseño',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Veimar Celis',
+        cargo: 'Validación de contenido',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [

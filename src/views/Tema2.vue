@@ -211,7 +211,7 @@
             .flip-front.py-4
               img(src="@/assets/curso/tema2/t2_13.svg", alt="alt").img300.m-auto
               h3.mb-0.text-center.text-white Paradigma patriarcal
-            .flip-back.p-4.pt-5              
+            .flip-back.flip--coral.p-4.pt-5              
               h4.txt-mint.pt-3.mb-4 Paradigma patriarcal
               .row
                 .col-auto
@@ -251,7 +251,7 @@
             .flip-front.py-4
               img(src="@/assets/curso/tema2/t2_14.svg", alt="alt").img300.m-auto
               h3.mb-0.text-center.text-white Paradigma capitalista
-            .flip-back.p-4.pt-5             
+            .flip-back.flip--blue.p-4.pt-5             
               h4.txt-mint.mb-4 Paradigma capitalista                          
               .row
                 .col-auto
@@ -408,7 +408,7 @@
 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/Myko9ZdrBzM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)       
 
     .row.justify-content-center
       .col-auto
@@ -432,9 +432,9 @@
         tbody
           tr
             td Cuando una mujer dice #[strong no], quiere decir que #[strong s&iacute;].
-            td Cuando una mujer dice #[strong no], es #[strong no], no es quiz&aacute;s, ni depronto, mucho menos s&iacute;.
+            td Cuando una mujer dice #[strong no], es #[strong no], no es quiz&aacute;s, ni de pronto, mucho menos s&iacute;.
           tr
-            td La naturaleza masculina es violenta y puede perderel control.
+            td La naturaleza masculina es violenta y puede perder el control.
             td La testosterona no hace a un hombre maltratador, las ideas machistas #[strong s&iacute;].
           tr
             td La violencia de g&eacute;nero es una cosa rara, eso no pasa.
@@ -450,7 +450,7 @@
             td Los hombres maltratadores son lo que son por lo que piensan y por la forma en que fueron educados desde la familia, la escuela y la sociedad, no est&aacute;n enfermos.
           tr
             td  A las mujeres les gusta que las maltraten y por eso siguen al lado de esa persona.
-            td Ninguna persona disfruta con el maltrato, muchas mujeres se quedan al lado de sus parejas porque no encuentran salidas, se sienten d&eacute;biles, tienen miedo porque han generado dependencias emocionales.Estas son consecuencias derivadas de la misma situaci&oacute;n de violencia y se convierte en un c&iacute;rculo vicioso.
+            td Ninguna persona disfruta con el maltrato, muchas mujeres se quedan al lado de sus parejas porque no encuentran salidas, se sienten d&eacute;biles, tienen miedo porque han generado dependencias emocionales. Estas son consecuencias derivadas de la misma situaci&oacute;n de violencia y se convierte en un c&iacute;rculo vicioso.
           tr
             td Consumir alcohol es la causa de las conductas violentas.
             td Las conductas violentas son aprendidas y pueden pronunciarse con el alcohol y las drogas, m&aacute;s no son las responsables de c&oacute;mo piensan las personas.
@@ -464,7 +464,7 @@
     separador
 
     #t_2_5.titulo-segundo.color-acento-contenido
-      h2 2.5 Concepto de continuum
+      h2 2.5 Concepto de <i>continuum</i>
 
     p.mb-5 Diferentes investigadores han hablado de este concepto, que se refiere a la violencia que se ha instaurado y naturalizado en la sociedad como una forma de relación, lo que es claro es que esta violencia atraviesa de forma inconsciente todos los procesos de socialización: familia, escuela, sociedad y se transmite la desigualdad desde el momento mismo del nacimiento de un niño y una niña.
 

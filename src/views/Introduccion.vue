@@ -8,7 +8,7 @@
         span i
       h1 Introducción   
 
-    p.mb-5 Se invita a revisar el siguiente video para comprender algunas indicaciones iniciales del proceso de aprendizaje y los elementos de abordaje acerca la violencia de género y su marco normativo.    
+    p.mb-5 Se invita a revisar el siguiente video para comprender algunas indicaciones iniciales del proceso de aprendizaje y los elementos de abordaje acerca de la violencia de género y su marco normativo.    
     
     figure.mb-5
       .video

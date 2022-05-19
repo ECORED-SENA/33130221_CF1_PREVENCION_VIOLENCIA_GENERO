@@ -135,7 +135,7 @@
             .bloque-texto-g__texto.p-5
               p Uno de los hechos que vale la pena resaltar dentro de esta forma de violencia hace referencia al tiempo de exposición de la víctima, ya que por lo general una persona llega al momento de la denuncia por violencia física, después de haber vivido una condición sistemática de maltrato psicológico, emocional, incluso económica, por años de convivencia. 
 
-      p Este hecho ha sido estudiado; sin embargo, existen diversos factores ha permiten que la víctima decida permanecer en la relación, entre ellos el miedo, la dependencia, la autoestima que se ha deteriorado como parte de las condiciones de agresión y maltrato, configurándose un círculo para muchas mujeres sin salida, que incluso llega a poner en riesgo la vida.
+      p Este hecho ha sido estudiado; sin embargo, existen diversos factores han permiten que la víctima decida permanecer en la relación, entre ellos el miedo, la dependencia, la autoestima que se ha deteriorado como parte de las condiciones de agresión y maltrato, configurándose un círculo para muchas mujeres sin salida, que incluso llega a poner en riesgo la vida.
 
     .bgGrad--02.mb-5
       .row.justify-content-center.pt-5
@@ -166,7 +166,7 @@
               .col
                 .crd--body.p-4
                   h3 Explotación sexual
-                  p.mb-0 En donde existe, por parte del victimario, el ofrecimiento de una transacción comercial por servicios sexuales. Esta condición puede darse de forma directa o través de terceros.
+                  p.mb-0 En donde existe, por parte del victimario, el ofrecimiento de una transacción comercial por servicios sexuales. Esta condición puede darse de forma directa o a través de terceros.
               .col-auto
                 .avatar_02
 
